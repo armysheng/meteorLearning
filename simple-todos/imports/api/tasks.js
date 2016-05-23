@@ -29,4 +29,4 @@ Meteor.methods({
  
     Tasks.update(taskId, { $set: { checked: setChecked } });
   },
-});
+}); 
